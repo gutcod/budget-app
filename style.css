@@ -33,9 +33,7 @@ body {
 
 .top {
     height: 40vh;
-    background: #c21500;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('/image.jpg');
     
 
 
@@ -57,11 +55,14 @@ body {
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
-    font-weight: 300;
+    font-weight: 300px;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 30px;
+
 }
 
 .budget__value {
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 46px;
     text-align: center;
     margin-bottom: 25px;
